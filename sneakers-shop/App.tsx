@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { SafeAreaView, StyleSheet, Text, View, StatusBar, Image, FlatList } from 'react-native';
+import { SafeAreaView, StyleSheet, Text, View, StatusBar, Image, FlatList, Button, TouchableOpacity } from 'react-native';
 import { list } from './data';
 import { ProductItem } from './components/product-item';
 import { Product } from './types/products';
@@ -13,9 +13,6 @@ export default function App() {
   };
 
 
-
-
-
   return (
     <SafeAreaView style={styles.container}>
      <StatusBar/>
@@ -24,28 +21,44 @@ export default function App() {
     <View style={styles.car}>
     <Image source={require('./assets/icon_carrinho.png')} style={styles.img} />
     <Text style={styles.txt}>{itensCarrinho}</Text>
-    </View>
+    
     </View>
 
+    
 
-     <Image source={require('./assets/hero.webp')}
-     resizeMode='cover'
-     style={styles.hero}
-     />
-
-    <View style={styles.area}>
-    <Text style={styles.h1}>Exclusivos</Text>
     </View>
+  
+
+
 
     <View style={styles.area2}>
+      
       <View style={styles.area3}>
       <FlatList 
+      
       data={list}
       renderItem={({item}: {item:Product}) => <ProductItem product={item} aoAdicionar={adicionarAoCarrinho}/>}
       keyExtractor={item => item.id.toString()}
       />
 
       </View>
+      
+
+    </View>
+
+    <View style={styles.bottomMenu}>
+        <TouchableOpacity style={styles.menuItem}>
+          <Text style={styles.menuText}>Home</Text>
+        </TouchableOpacity>
+        <TouchableOpacity style={styles.menuItem}>
+          <Text style={styles.menuText}>Categorias</Text>
+        </TouchableOpacity>
+        <TouchableOpacity style={styles.menuItem}>
+          <Text style={styles.menuText}>Carrinho</Text>
+        </TouchableOpacity>
+        <TouchableOpacity style={styles.menuItem}>
+          <Text style={styles.menuText}>Perfil</Text>
+        </TouchableOpacity>
 
     </View>
 
@@ -65,6 +78,8 @@ const styles = StyleSheet.create({
   area:{
     padding: 3,
     backgroundColor: '#000000',
+    borderBottomLeftRadius : 40,
+    borderBottomRightRadius : 40,
     
     
     
@@ -129,7 +144,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#a2c700',
     paddingHorizontal: 3,
     borderRadius: 200,
-    marginBottom: 14,
+    textAlign: 'center',
 
   },
 
@@ -139,7 +154,32 @@ const styles = StyleSheet.create({
     marginRight: 13,
     
   },
- 
+  bottomMenu: {
+    position: 'absolute',
+    bottom: 0,
+    left: 0,
+    right: 0,
+    backgroundColor: '#000000',
+    flexDirection: 'row',
+    justifyContent: 'space-around',
+    paddingVertical: 10,
+    paddingHorizontal: 10,
+    alignItems: 'center',
+    height: 50,
+    borderTopLeftRadius: 10,
+    borderTopRightRadius: 10,
+    
+  },
+  menuItem: {
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  menuText: {
+    color: '#ffffff',
+    fontSize: 17,
+    fontWeight: 'bold',
+
+  },
   
 
 

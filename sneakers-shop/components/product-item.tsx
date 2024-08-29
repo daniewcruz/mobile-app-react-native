@@ -42,6 +42,7 @@ export const ProductItem = (props: Props) => {
 const styles = StyleSheet.create({
     container: {
         flexDirection: 'row',
+        width: 350,
         margin: 10,
         backgroundColor: '#fff',
         shadowColor: "#000",
@@ -51,32 +52,59 @@ const styles = StyleSheet.create({
         },
         shadowOpacity: 0.25,
         shadowRadius: 3.84,
-        elevation: 6,
+        elevation: 4,
+        borderRadius: 8,
+
+       
     },
     image: {
-        width: 170,
-        height: 170,
+        width: 190,
+        height: 210,
+        borderBottomRightRadius: 60,
+        borderTopRightRadius: 0,
+        borderTopLeftRadius: 8,
+        borderBottomLeftRadius: 8
         
     },
     info: {
+        
         flex: 1,
-        marginLeft: 10
+        marginLeft: 10,
+        marginRight: 10,
+        justifyContent: 'center',
+        alignItems: 'flex-start',
+        
+      
+        
     },
     name: {
         fontSize: 19,
         fontWeight: 'bold',
         marginBottom: 10,
-        marginTop: 10
+        marginTop: 10,
+        marginLeft: 10,
+
     },
     price: {
-        fontSize: 18,
+        fontSize: 20,
         color: '#a2c700',
         fontWeight: 'bold',
         marginBottom: 20,
+        marginLeft: 10,
+        
         
     },
     button: {
-        padding: 10
+        padding: 5,
+        borderRadius: 8,
+        backgroundColor: '#000000',
+        alignSelf: 'center',
+        marginBottom: 5,
+        marginRight: 10,
+        marginLeft: 10,
+        width: 130,
+        
+
     }
 
     
