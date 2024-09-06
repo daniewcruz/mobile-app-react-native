@@ -59,18 +59,18 @@ const styles = StyleSheet.create({
     },
     input: {
         
-        padding: 10,
+        padding: 7,
         backgroundColor: '#f5f9ff',
         borderWidth: 1,
         borderTopColor: '#ccc',
         borderLeftColor: '#ccc',
         borderRightColor: '#ccc',
         borderBottomWidth: 2,
-        borderTopLeftRadius: 5,
-        borderTopRightRadius: 5,
+        borderTopLeftRadius: 10,
+        borderTopRightRadius: 10,
         borderBottomColor: '#445BF7',
 
-        borderRadius: 5,
+        borderRadius: 10,
         marginBottom: 30,
         
     },
