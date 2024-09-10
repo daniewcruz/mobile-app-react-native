@@ -2,6 +2,19 @@
 
 Este projeto é uma aplicação móvel inspirada no **Banco do Brasil**, desenvolvida com **React Native** e **Expo Router**. O app simula o acesso a contas bancárias com diferentes perfis de usuários, oferecendo uma interface intuitiva e moderna.
 
+## Capturas de Tela
+
+### Tela Inicial
+![Tela Inicial](./assets/screenshotTela1.png)
+
+### Página de Perfis
+![Página de Perfis](./assets/screenshotTela2.png)
+
+### Tela de Login
+![Tela de Login](./assets/screenshotTela3.png)
+
+
+
 ## Funcionalidades
 
 - Acesso à conta do usuário com uma tela de login personalizada.
@@ -15,31 +28,3 @@ Este projeto é uma aplicação móvel inspirada no **Banco do Brasil**, desenvo
 - **React Native Safe Area Context**: Ajustes para diferentes tamanhos de tela e dispositivos.
 - **React Native ImageBackground e Image**: Imagens e fundos personalizados.
 
-## Estrutura do Projeto
-
-```bash
-.
-├── assets/
-│   ├── capa.jpg
-│   ├── icon_Pfisica.png
-│   ├── icon_pj.png
-│   ├── international.png
-│   ├── logo.png
-│   ├── private.png
-│   ├── robo.png
-│   ├── rural.png
-│   ├── screenshotTela1.png
-│   ├── screenshotTela2.png
-│   ├── screenshotTela3.png
-│   ├── seta-esquerda.png
-├── app/
-│   ├── _layout.tsx
-│   ├── index.tsx
-│   ├── login.tsx
-│   ├── perfil.tsx
-├── .gitignore
-├── app.json
-├── babel.config.js
-├── package-lock.json
-├── package.json
-└── tsconfig.json
