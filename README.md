@@ -5,13 +5,13 @@ Este projeto é uma aplicação móvel inspirada no **Banco do Brasil**, desenvo
 ## Capturas de Tela
 
 ### Tela Inicial
-![Tela Inicial](../assets/screenshotTela1.png)
+![Tela Inicial](/assets/screenshotTela1.png)
 
 ### Página de Perfis
-![Página de Perfis](../assets/screenshotTela2.png)
+![Página de Perfis](/assets/screenshotTela2.png)
 
 ### Tela de Login
-![Tela de Login](../assets/screenshotTela3.png)
+![Tela de Login](/assets/screenshotTela3.png)
 
 
 
