@@ -4,15 +4,13 @@ Este projeto é uma aplicação móvel inspirada no **Banco do Brasil**, desenvo
 
 ## Capturas de Tela
 
-### Tela Inicial
-![Tela Inicial](bancoDoBrasil/assets/screenshotTela1.png)
+<div style="display: flex; justify-content: space-around;">
 
-### Página de Perfis
-![Página de Perfis](bancoDoBrasil/assets/screenshotTela2.png)
+  <img src="bancoDoBrasil/assets/screenshotTela1.png" alt="Tela Inicial" width="300" />
+  <img src="bancoDoBrasil/assets/screenshotTela2.png" alt="Página de Perfis" width="300" />
+  <img src="bancoDoBrasil/assets/screenshotTela3.png" alt="Tela de Login" width="300" />
 
-### Tela de Login
-![Tela de Login](bancoDoBrasil/assets/screenshotTela3.png)
-
+</div>
 
 
 
