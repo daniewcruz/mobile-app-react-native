@@ -1,12 +1,13 @@
 import { router } from "expo-router";
 import { Image, Pressable, StatusBar, StyleSheet, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
+import React from "react";
 
-function click() {
-    router.navigate('/login')
-}
 
 export default function Perfil() {
+    function click() {
+        router.navigate('/login')
+    }
     return (
 
         <SafeAreaView style={styles.container}>
@@ -75,11 +76,6 @@ export default function Perfil() {
 
                 <Image style={styles.seta} source={require('../assets/seta-esquerda.png')} />
             </Pressable>
-
-
-
-
-
 
 
         </SafeAreaView>

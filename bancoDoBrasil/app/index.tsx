@@ -12,6 +12,7 @@ export default function App() {
     return (
         <SafeAreaView>
         <StatusBar />
+        
         <ImageBackground source={require('../assets/capa.jpg')} style={styles.capa}>
        
         <View style={styles.container} >
