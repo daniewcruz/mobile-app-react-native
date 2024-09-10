@@ -6,9 +6,9 @@ Este projeto é uma aplicação móvel inspirada no **Banco do Brasil**, desenvo
 
 <div style="display: flex; justify-content: space-around;">
 
-  <img src="bancoDoBrasil/assets/screenshotTela1.png" alt="Tela Inicial" width="300" />
-  <img src="bancoDoBrasil/assets/screenshotTela2.png" alt="Página de Perfis" width="300" />
-  <img src="bancoDoBrasil/assets/screenshotTela3.png" alt="Tela de Login" width="300" />
+  <img src="bancoDoBrasil/assets/screenshotTela1.png" alt="Tela Inicial" width="200" />
+  <img src="bancoDoBrasil/assets/screenshotTela2.png" alt="Página de Perfis" width="200" />
+  <img src="bancoDoBrasil/assets/screenshotTela3.png" alt="Tela de Login" width="200" />
 
 </div>
 
